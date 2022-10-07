@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.3470" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-07-21T13:50:12" tests="0" file="cypress\integration\examples\05-apiAutomationSpec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Api Automation test cases" timestamp="2022-07-21T13:50:12" tests="2" time="0.3090" failures="0">
+    <testcase name="Api Automation test cases Get Token" time="0.1890" classname="Get Token">
+    </testcase>
+    <testcase name="Api Automation test cases Login Api" time="0.1210" classname="Login Api">
+    </testcase>
+  </testsuite>
+</testsuites>

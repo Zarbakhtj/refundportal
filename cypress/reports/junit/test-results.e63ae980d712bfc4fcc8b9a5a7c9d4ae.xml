@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="111.3130" tests="21" failures="15">
+  <testsuite name="Root Suite" timestamp="2022-07-25T08:03:09" tests="0" file="cypress\integration\examples\allSpecs.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Test Cases for Login Page" timestamp="2022-07-25T08:03:09" tests="6" time="1.6190" failures="1">
+    <testcase name="Test Cases for Login Page &quot;before each&quot; hook for &quot;Vist the URL&quot;" time="0.0000" classname="&quot;before each&quot; hook for &quot;Vist the URL&quot;">
+      <failure message="`cy.request()` failed trying to load:
+
+http://localhost:8080/GatewayWebapp/data/auth/token
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  &gt; Error: connect ECONNREFUSED 127.0.0.1:8080
+
+-----------------------------------------------------------
+
+The request we sent was:
+
+Method: POST
+URL: http://localhost:8080/GatewayWebapp/data/auth/token
+
+-----------------------------------------------------------
+
+Common situations why this would fail:
+  - you don&apos;t have internet access
+  - you forgot to run / boot your web server
+  - your web server isn&apos;t accessible
+  - you have weird network configuration settings on your computer
+
+https://on.cypress.io/request
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Test Cases for Login Page`" type="CypressError"><![CDATA[CypressError: `cy.request()` failed trying to load:
+
+http://localhost:8080/GatewayWebapp/data/auth/token
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+-----------------------------------------------------------
+
+The request we sent was:
+
+Method: POST
+URL: http://localhost:8080/GatewayWebapp/data/auth/token
+
+-----------------------------------------------------------
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+https://on.cypress.io/request
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Test Cases for Login Page`
+    at http://localhost:59386/__cypress/runner/cypress_runner.js:158497:78
+    at tryCatcher (http://localhost:59386/__cypress/runner/cypress_runner.js:13012:23)
+    at http://localhost:59386/__cypress/runner/cypress_runner.js:8151:37
+    at tryCatcher (http://localhost:59386/__cypress/runner/cypress_runner.js:13012:23)
+    at Promise._settlePromiseFromHandler (http://localhost:59386/__cypress/runner/cypress_runner.js:10947:31)
+    at Promise._settlePromise (http://localhost:59386/__cypress/runner/cypress_runner.js:11004:18)
+    at Promise._settlePromise0 (http://localhost:59386/__cypress/runner/cypress_runner.js:11049:10)
+    at Promise._settlePromises (http://localhost:59386/__cypress/runner/cypress_runner.js:11125:18)
+    at _drainQueueStep (http://localhost:59386/__cypress/runner/cypress_runner.js:7719:12)
+    at _drainQueue (http://localhost:59386/__cypress/runner/cypress_runner.js:7712:9)
+    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:59386/__cypress/runner/cypress_runner.js:7728:5)
+    at Async.drainQueues (http://localhost:59386/__cypress/runner/cypress_runner.js:7598:14)
+From Your Spec Code:
+    at Context.eval (http://localhost:59386/__cypress/tests?p=cypress\support\commands.js:136:6)
+
+From Node.js Internals:
+  RequestError: Error: connect ECONNREFUSED 127.0.0.1:8080
+      at new RequestError (C:\Users\jalilzar\AppData\Local\Cypress\Cache\10.1.0\Cypress\resources\app\node_modules\request-promise-core\lib\errors.js:14:15)
+      at Request.plumbing.callback (C:\Users\jalilzar\AppData\Local\Cypress\Cache\10.1.0\Cypress\resources\app\node_modules\request-promise-core\lib\plumbing.js:87:29)
+      at Request.RP$callback [as _callback] (C:\Users\jalilzar\AppData\Local\Cypress\Cache\10.1.0\Cypress\resources\app\node_modules\request-promise-core\lib\plumbing.js:46:31)
+      at self.callback (C:\Users\jalilzar\AppData\Local\Cypress\Cache\10.1.0\Cypress\resources\app\node_modules\@cypress\request\request.js:183:22)
+      at Request.emit (node:events:390:28)
+      at Request.emit (node:domain:475:12)
+      at Request.onRequestError (C:\Users\jalilzar\AppData\Local\Cypress\Cache\10.1.0\Cypress\resources\app\node_modules\@cypress\request\request.js:869:8)
+      at ClientRequest.emit (node:events:402:35)
+      at ClientRequest.emit (node:domain:475:12)
+      at Socket.socketErrorListener (node:_http_client:447:9)
+      at Socket.emit (node:events:390:28)
+      at Socket.emit (node:domain:475:12)
+      at emitErrorNT (node:internal/streams/destroy:157:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+  ]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Test Cases after the user is Logged-In" timestamp="2022-07-25T08:03:10" tests="3" time="32.2390" failures="3">
+    <testcase name="Test Cases after the user is Logged-In Select value from School Drop Down" time="0.0000" classname="Select value from School Drop Down">
+      <failure message="Timed out retrying after 10000ms: Expected to find element: `#mat-input-2`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: Expected to find element: `#mat-input-2`, but never found it.
+    at homePage.schoolDropDown (http://localhost:59386/__cypress/tests?p=cypress\integration\examples\allSpecs.js:6579:8)
+    at Context.eval (http://localhost:59386/__cypress/tests?p=cypress\integration\examples\allSpecs.js:6817:10)]]></failure>
+    </testcase>
+    <testcase name="Test Cases after the user is Logged-In Check the Manual Intervention Checkbox" time="0.0000" classname="Check the Manual Intervention Checkbox">
+      <failure message="Timed out retrying after 10000ms: Expected to find element: `.mat-checkbox-inner-container`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: Expected to find element: `.mat-checkbox-inner-container`, but never found it.
+    at homePage.checkManualIntervention (http://localhost:59386/__cypress/tests?p=cypress\integration\examples\allSpecs.js:6589:8)
+    at Context.eval (http://localhost:59386/__cypress/tests?p=cypress\integration\examples\allSpecs.js:6820:10)]]></failure>
+    </testcase>
+    <testcase name="Test Cases after the user is Logged-In Uncheck the Manual Intervention Checkbox" time="0.0000" classname="Uncheck the Manual Intervention Checkbox">
+      <failure message="Timed out retrying after 10000ms: Expected to find element: `.mat-checkbox-inner-container`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: Expected to find element: `.mat-checkbox-inner-container`, but never found it.
+    at homePage.uncheckManualIntervention (http://localhost:59386/__cypress/tests?p=cypress\integration\examples\allSpecs.js:6603:8)
+    at Context.eval (http://localhost:59386/__cypress/tests?p=cypress\integration\examples\allSpecs.js:6823:10)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Test Cases for Adding a Refund Request" timestamp="2022-07-25T08:03:43" tests="9" time="75.1360" failures="9">
+    <testcase name="Test Cases for Adding a Refund Request Click on Add Request button" time="0.0000" classname="Click on Add Request button">
+      <failure message="`cy.setCookie()` must be passed two string arguments for `name` and `value`.
+
+https://on.cypress.io/setcookie" type="CypressError"><![CDATA[CypressError: `cy.setCookie()` must be passed two string arguments for `name` and `value`.
+
+https://on.cypress.io/setcookie
+    at Context.setCookie (http://localhost:59386/__cypress/runner/cypress_runner.js:154269:78)
+From Your Spec Code:
+    at Context.eval (http://localhost:59386/__cypress/tests?p=cypress\integration\examples\allSpecs.js:6851:8)]]></failure>
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Verify the URL of Refund Screen" time="0.0000" classname="Verify the URL of Refund Screen">
+      <failure message="Timed out retrying after 10000ms: expected &apos;about:blank&apos; to include &apos;/refunds&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: expected 'about:blank' to include '/refunds'
+    at homePage.verifyRefundURL (http://localhost:59386/__cypress/tests?p=cypress\integration\examples\allSpecs.js:6611:14)
+    at Context.eval (http://localhost:59386/__cypress/tests?p=cypress\integration\examples\allSpecs.js:6856:10)]]></failure>
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Select value from account drop down" time="0.0000" classname="Select value from account drop down">
+      <failure message="`cy.setCookie()` must be passed two string arguments for `name` and `value`.
+
+https://on.cypress.io/setcookie" type="CypressError"><![CDATA[CypressError: `cy.setCookie()` must be passed two string arguments for `name` and `value`.
+
+https://on.cypress.io/setcookie
+    at Context.setCookie (http://localhost:59386/__cypress/runner/cypress_runner.js:154269:78)
+From Your Spec Code:
+    at Context.eval (http://localhost:59386/__cypress/tests?p=cypress\integration\examples\allSpecs.js:6859:8)]]></failure>
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Enter the Refund Amount" time="0.0000" classname="Enter the Refund Amount">
+      <failure message="Timed out retrying after 10000ms: Expected to find element: `#mat-input-5`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: Expected to find element: `#mat-input-5`, but never found it.
+    at homePage.enterRefundAmount (http://localhost:59386/__cypress/tests?p=cypress\integration\examples\allSpecs.js:6617:8)
+    at Context.eval (http://localhost:59386/__cypress/tests?p=cypress\integration\examples\allSpecs.js:6865:10)]]></failure>
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Click on Submit Button" time="0.0000" classname="Click on Submit Button">
+      <failure message="Timed out retrying after 10000ms: Expected to find element: `.btn_container &gt; .mat-focus-indicator &gt; .mat-button-wrapper`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: Expected to find element: `.btn_container > .mat-focus-indicator > .mat-button-wrapper`, but never found it.
+    at homePage.clickSubmit (http://localhost:59386/__cypress/tests?p=cypress\integration\examples\allSpecs.js:6629:8)
+    at Context.eval (http://localhost:59386/__cypress/tests?p=cypress\integration\examples\allSpecs.js:6868:10)]]></failure>
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Verify the text of Toast Message" time="0.0000" classname="Verify the text of Toast Message">
+      <failure message="Timed out retrying after 10000ms: Expected to find element: `.toast-message`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: Expected to find element: `.toast-message`, but never found it.
+    at homePage.verifyToastMessage (http://localhost:59386/__cypress/tests?p=cypress\integration\examples\allSpecs.js:6633:30)
+    at Context.eval (http://localhost:59386/__cypress/tests?p=cypress\integration\examples\allSpecs.js:6871:10)]]></failure>
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Verify CSV" time="0.0000" classname="Verify CSV">
+      <failure message="Timed out retrying after 10000ms: Expected to find element: `.mat-header-row &gt; .cdk-column-site-customer`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: Expected to find element: `.mat-header-row > .cdk-column-site-customer`, but never found it.
+    at homePage.exportCSV (http://localhost:59386/__cypress/tests?p=cypress\integration\examples\allSpecs.js:6638:8)
+    at Context.eval (http://localhost:59386/__cypress/tests?p=cypress\integration\examples\allSpecs.js:6874:10)]]></failure>
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Click on Approve button" time="0.0000" classname="Click on Approve button">
+      <failure message="Timed out retrying after 10000ms: Expected to find element: `tr td:nth-child(3)`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: Expected to find element: `tr td:nth-child(3)`, but never found it.
+    at homePage.approveButton (http://localhost:59386/__cypress/tests?p=cypress\integration\examples\allSpecs.js:6665:8)
+    at Context.eval (http://localhost:59386/__cypress/tests?p=cypress\integration\examples\allSpecs.js:6877:10)]]></failure>
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Verify that dialog is visible" time="0.0000" classname="Verify that dialog is visible">
+      <failure message="Timed out retrying after 10000ms: Expected to find element: `#mat-dialog-0`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: Expected to find element: `#mat-dialog-0`, but never found it.
+    at homePage.dialog (http://localhost:59386/__cypress/tests?p=cypress\integration\examples\allSpecs.js:6674:29)
+    at Context.eval (http://localhost:59386/__cypress/tests?p=cypress\integration\examples\allSpecs.js:6880:10)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Verify DB Connection" timestamp="2022-07-25T08:04:58" tests="1" time="0.3420" failures="0">
+    <testcase name="Verify DB Connection Verify connection with database" time="0.3290" classname="Verify connection with database">
+    </testcase>
+  </testsuite>
+  <testsuite name="Api Automation test cases" timestamp="2022-07-25T08:04:58" tests="2" time="1.8620" failures="2">
+    <testcase name="Api Automation test cases Get Token" time="0.0000" classname="Get Token">
+      <failure message="`cy.request()` failed on:
+
+http://localhost:8080/GatewayWebapp/data/auth/token
+
+The response we received from your web server was:
+
+  &gt; 404: Not Found
+
+This was considered a failure because the status code was not `2xx` or `3xx`.
+
+If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+
+-----------------------------------------------------------
+
+The request we sent was:
+
+Method: POST
+URL: http://localhost:8080/GatewayWebapp/data/auth/token
+Headers: {
+  &quot;Connection&quot;: &quot;keep-alive&quot;,
+  &quot;user-agent&quot;: &quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.1.0 Chrome/100.0.4896.75 Electron/18.0.4 Safari/537.36&quot;,
+  &quot;accept&quot;: &quot;*/*&quot;,
+  &quot;accept-encoding&quot;: &quot;gzip, deflate&quot;,
+  &quot;content-type&quot;: &quot;application/json&quot;,
+  &quot;content-length&quot;: 53
+}
+Body: {&quot;username&quot;:&quot;refund1@test.com&quot;,&quot;password&quot;:&quot;Test1234&quot;}
+
+-----------------------------------------------------------
+
+The response we got was:
+
+Status: 404 - Not Found
+Headers: {
+  &quot;content-type&quot;: &quot;text/html;charset=utf-8&quot;,
+  &quot;content-language&quot;: &quot;en&quot;,
+  &quot;content-length&quot;: &quot;682&quot;,
+  &quot;date&quot;: &quot;Mon, 25 Jul 2022 08:04:59 GMT&quot;,
+  &quot;keep-alive&quot;: &quot;timeout=20&quot;,
+  &quot;connection&quot;: &quot;keep-alive&quot;
+}
+Body: &lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;title&gt;HTTP Status 404 – Not Found&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP Status 404 – Not Found&lt;/h1&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;p&gt;&lt;b&gt;Type&lt;/b&gt; Status Report&lt;/p&gt;&lt;p&gt;&lt;b&gt;Description&lt;/b&gt; The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.&lt;/p&gt;&lt;hr class=&quot;line&quot; /&gt;&lt;h3&gt;Apache Tomcat/9.0.64&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;
+
+
+https://on.cypress.io/request" type="CypressError"><![CDATA[CypressError: `cy.request()` failed on:
+
+http://localhost:8080/GatewayWebapp/data/auth/token
+
+The response we received from your web server was:
+
+  > 404: Not Found
+
+This was considered a failure because the status code was not `2xx` or `3xx`.
+
+If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+
+-----------------------------------------------------------
+
+The request we sent was:
+
+Method: POST
+URL: http://localhost:8080/GatewayWebapp/data/auth/token
+Headers: {
+  "Connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.1.0 Chrome/100.0.4896.75 Electron/18.0.4 Safari/537.36",
+  "accept": "*/*",
+  "accept-encoding": "gzip, deflate",
+  "content-type": "application/json",
+  "content-length": 53
+}
+Body: {"username":"refund1@test.com","password":"Test1234"}
+
+-----------------------------------------------------------
+
+The response we got was:
+
+Status: 404 - Not Found
+Headers: {
+  "content-type": "text/html;charset=utf-8",
+  "content-language": "en",
+  "content-length": "682",
+  "date": "Mon, 25 Jul 2022 08:04:59 GMT",
+  "keep-alive": "timeout=20",
+  "connection": "keep-alive"
+}
+Body: <!doctype html><html lang="en"><head><title>HTTP Status 404 – Not Found</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 404 – Not Found</h1><hr class="line" /><p><b>Type</b> Status Report</p><p><b>Description</b> The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.</p><hr class="line" /><h3>Apache Tomcat/9.0.64</h3></body></html>
+
+
+https://on.cypress.io/request
+    at http://localhost:59386/__cypress/runner/cypress_runner.js:158468:80
+    at tryCatcher (http://localhost:59386/__cypress/runner/cypress_runner.js:13012:23)
+    at Promise._settlePromiseFromHandler (http://localhost:59386/__cypress/runner/cypress_runner.js:10947:31)
+    at Promise._settlePromise (http://localhost:59386/__cypress/runner/cypress_runner.js:11004:18)
+    at Promise._settlePromise0 (http://localhost:59386/__cypress/runner/cypress_runner.js:11049:10)
+    at Promise._settlePromises (http://localhost:59386/__cypress/runner/cypress_runner.js:11129:18)
+    at _drainQueueStep (http://localhost:59386/__cypress/runner/cypress_runner.js:7719:12)
+    at _drainQueue (http://localhost:59386/__cypress/runner/cypress_runner.js:7712:9)
+    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:59386/__cypress/runner/cypress_runner.js:7728:5)
+    at Async.drainQueues (http://localhost:59386/__cypress/runner/cypress_runner.js:7598:14)
+From Your Spec Code:
+    at apiAutomation.getToken (http://localhost:59386/__cypress/tests?p=cypress\integration\examples\allSpecs.js:6514:8)
+    at Context.eval (http://localhost:59386/__cypress/tests?p=cypress\integration\examples\allSpecs.js:6933:9)]]></failure>
+    </testcase>
+    <testcase name="Api Automation test cases Login Api" time="0.0000" classname="Login Api">
+      <failure message="`cy.setCookie()` must be passed two string arguments for `name` and `value`.
+
+https://on.cypress.io/setcookie" type="CypressError"><![CDATA[CypressError: `cy.setCookie()` must be passed two string arguments for `name` and `value`.
+
+https://on.cypress.io/setcookie
+    at Context.setCookie (http://localhost:59386/__cypress/runner/cypress_runner.js:154269:78)
+From Your Spec Code:
+    at Context.eval (http://localhost:59386/__cypress/tests?p=cypress\integration\examples\allSpecs.js:6936:8)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

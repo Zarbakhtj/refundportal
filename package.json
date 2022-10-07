@@ -1,0 +1,30 @@
+{
+  "name": "cypress-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "headTest": "npm run test --  --headed",
+    "dashboard": "npm run test -- --record --key ceb5fc88-964a-4051-b972-d7cd756c81df"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.1.0",
+    "cypress-mochawesome-reporter": "^3.2.0",
+    "cypress-multi-reporters": "^1.6.1",
+    "cypress-postgresql": "^1.0.8",
+    "faker": "^6.6.6",
+    "junit-report-merger": "^3.0.5",
+    "mocha": "^10.0.0",
+    "mocha-junit-reporter": "^2.0.2",
+    "neat-csv": "5.1.0"
+  },
+  "devDependencies": {
+    "cypress-fill-command": "^1.0.2",
+    "cypress-localstorage-commands": "^2.1.0",
+    "mochawesome": "^7.1.3"
+  }
+}

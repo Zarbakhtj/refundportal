@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="16.7850" tests="15" failures="1" skipped="4">
+  <testsuite name="Root Suite" timestamp="2022-06-29T09:45:58" tests="0" file="cypress\integration\examples\allSpecs.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Test Cases for Login Page" timestamp="2022-06-29T09:45:58" tests="6" time="3.7640" failures="0">
+    <testcase name="Test Cases for Login Page Vist the URL" time="2.4490" classname="Vist the URL">
+    </testcase>
+    <testcase name="Test Cases for Login Page Verify the Heading of Login Page" time="0.1250" classname="Verify the Heading of Login Page">
+    </testcase>
+    <testcase name="Test Cases for Login Page Verify the URL of Login Page" time="0.0450" classname="Verify the URL of Login Page">
+    </testcase>
+    <testcase name="Test Cases for Login Page Enter the email address" time="0.4940" classname="Enter the email address">
+    </testcase>
+    <testcase name="Test Cases for Login Page Enter the Password" time="0.3570" classname="Enter the Password">
+    </testcase>
+    <testcase name="Test Cases for Login Page Click on Login Button" time="0.1960" classname="Click on Login Button">
+    </testcase>
+  </testsuite>
+  <testsuite name="Test Cases after the user is Logged-In" timestamp="2022-06-29T09:46:02" tests="3" time="1.3600" failures="0">
+    <testcase name="Test Cases after the user is Logged-In Select value from School Drop Down" time="1.3230" classname="Select value from School Drop Down">
+    </testcase>
+  </testsuite>
+  <testsuite name="Test Cases for Adding a Refund Request" timestamp="2022-06-29T09:46:03" tests="6" time="11.6090" failures="1">
+    <testcase name="Test Cases for Adding a Refund Request Click on Add Request button" time="0.5990" classname="Click on Add Request button">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Verify the URL of Refund Screen" time="0.1090" classname="Verify the URL of Refund Screen">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Select value from account drop down" time="0.3210" classname="Select value from account drop down">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Verify the Text of Warning Toast Message" time="0.0000" classname="Verify the Text of Warning Toast Message">
+      <failure message="Timed out retrying after 10000ms: Expected to find element: `.btn_container &gt; .mat-focus-indicator &gt; .mat-button-wrapper`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: Expected to find element: `.btn_container > .mat-focus-indicator > .mat-button-wrapper`, but never found it.
+    at homePage.verifyPopUpText (http://localhost:4005/__cypress/tests?p=cypress\integration\examples\allSpecs.js:154:8)
+    at Context.eval (http://localhost:4005/__cypress/tests?p=cypress\integration\examples\allSpecs.js:322:10)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

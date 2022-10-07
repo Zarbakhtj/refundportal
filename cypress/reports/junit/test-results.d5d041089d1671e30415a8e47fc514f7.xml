@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="17.1110" tests="14" failures="1" skipped="3">
+  <testsuite name="Root Suite" timestamp="2022-06-28T15:23:59" tests="0" file="cypress\integration\examples\allSpecs.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Test Cases for Login Page" timestamp="2022-06-28T15:24:00" tests="6" time="3.8560" failures="0">
+    <testcase name="Test Cases for Login Page Vist the URL" time="2.5210" classname="Vist the URL">
+    </testcase>
+    <testcase name="Test Cases for Login Page Verify the Heading of Login Page" time="0.1250" classname="Verify the Heading of Login Page">
+    </testcase>
+    <testcase name="Test Cases for Login Page Verify the URL of Login Page" time="0.0510" classname="Verify the URL of Login Page">
+    </testcase>
+    <testcase name="Test Cases for Login Page Enter the email address" time="0.4900" classname="Enter the email address">
+    </testcase>
+    <testcase name="Test Cases for Login Page Enter the Password" time="0.3630" classname="Enter the Password">
+    </testcase>
+    <testcase name="Test Cases for Login Page Click on Login Button" time="0.1960" classname="Click on Login Button">
+    </testcase>
+  </testsuite>
+  <testsuite name="Test Cases after the user is Logged-In" timestamp="2022-06-28T15:24:03" tests="3" time="1.4290" failures="0">
+    <testcase name="Test Cases after the user is Logged-In Select value from School Drop Down" time="1.4230" classname="Select value from School Drop Down">
+    </testcase>
+  </testsuite>
+  <testsuite name="Adding a Refund Request" timestamp="2022-06-28T15:24:05" tests="5" time="11.7220" failures="1">
+    <testcase name="Adding a Refund Request Click on Add Request button" time="0.5510" classname="Click on Add Request button">
+    </testcase>
+    <testcase name="Adding a Refund Request Verify the URL of Refund Screen" time="0.0990" classname="Verify the URL of Refund Screen">
+    </testcase>
+    <testcase name="Adding a Refund Request Select value from account drop down" time="0.3920" classname="Select value from account drop down">
+    </testcase>
+    <testcase name="Adding a Refund Request Enter the Refund Amount" time="0.0000" classname="Enter the Refund Amount">
+      <failure message="Timed out retrying after 10000ms: Expected to find element: `#mat-input-17`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: Expected to find element: `#mat-input-17`, but never found it.
+    at homePage.enterRefundAmount (http://localhost:4005/__cypress/tests?p=cypress\integration\examples\allSpecs.js:149:8)
+    at Context.eval (http://localhost:4005/__cypress/tests?p=cypress\integration\examples\allSpecs.js:312:10)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

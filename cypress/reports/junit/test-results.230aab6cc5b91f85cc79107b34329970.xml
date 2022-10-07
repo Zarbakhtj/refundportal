@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="11.1460" tests="20" failures="0" skipped="3">
+  <testsuite name="Root Suite" timestamp="2022-07-19T11:55:10" tests="0" file="cypress\integration\examples\allSpecs.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Test Cases for Login Page" timestamp="2022-07-19T11:55:10" tests="6" time="6.9190" failures="0">
+    <testcase name="Test Cases for Login Page Vist the URL" time="2.6750" classname="Vist the URL">
+    </testcase>
+    <testcase name="Test Cases for Login Page Verify the Heading of Login Page" time="0.2300" classname="Verify the Heading of Login Page">
+    </testcase>
+    <testcase name="Test Cases for Login Page Verify the URL of Login Page" time="0.1290" classname="Verify the URL of Login Page">
+    </testcase>
+    <testcase name="Test Cases for Login Page Enter the email address" time="0.6130" classname="Enter the email address">
+    </testcase>
+    <testcase name="Test Cases for Login Page Enter the Password" time="0.4350" classname="Enter the Password">
+    </testcase>
+    <testcase name="Test Cases for Login Page Click on Login Button" time="0.2540" classname="Click on Login Button">
+    </testcase>
+  </testsuite>
+  <testsuite name="Test Cases after the user is Logged-In" timestamp="2022-07-19T11:55:17" tests="3" time="0.7500" failures="0">
+    <testcase name="Test Cases after the user is Logged-In Select value from School Drop Down" time="0.7600" classname="Select value from School Drop Down">
+    </testcase>
+  </testsuite>
+  <testsuite name="Test Cases for Adding a Refund Request" timestamp="2022-07-19T11:55:18" tests="10" time="3.2930" failures="0">
+    <testcase name="Test Cases for Adding a Refund Request Click on Add Request button" time="0.4990" classname="Click on Add Request button">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Verify the URL of Refund Screen" time="0.0580" classname="Verify the URL of Refund Screen">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Select value from account drop down" time="0.2850" classname="Select value from account drop down">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Enter the Refund Amount" time="0.4210" classname="Enter the Refund Amount">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Click on Submit Button" time="0.1770" classname="Click on Submit Button">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Verify the text of Toast Message" time="0.5610" classname="Verify the text of Toast Message">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Verify CSV" time="0.6590" classname="Verify CSV">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Click on Approve button" time="0.4220" classname="Click on Approve button">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Verify that dialog is visible" time="0.1190" classname="Verify that dialog is visible">
+    </testcase>
+  </testsuite>
+  <testsuite name="Verify DB Connection" timestamp="2022-07-19T11:55:21" tests="1" time="0.1110" failures="0">
+    <testcase name="Verify DB Connection Verify connection with database" time="0.1210" classname="Verify connection with database">
+    </testcase>
+  </testsuite>
+</testsuites>

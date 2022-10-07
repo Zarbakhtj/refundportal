@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="67.5360" tests="36" failures="2">
+  <testsuite name="Root Suite" timestamp="2022-08-04T08:15:19" tests="0" file="cypress\integration\specs\allSpecs.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Test Cases for Login Page" timestamp="2022-08-04T08:15:19" tests="6" time="11.6380" failures="0">
+    <testcase name="Test Cases for Login Page Vist the URL" time="4.6980" classname="Vist the URL">
+    </testcase>
+    <testcase name="Test Cases for Login Page Verify the Heading of Login Page" time="0.3020" classname="Verify the Heading of Login Page">
+    </testcase>
+    <testcase name="Test Cases for Login Page Verify the URL of Login Page" time="0.2690" classname="Verify the URL of Login Page">
+    </testcase>
+    <testcase name="Test Cases for Login Page Enter the email address" time="0.7850" classname="Enter the email address">
+    </testcase>
+    <testcase name="Test Cases for Login Page Enter the Password" time="0.5410" classname="Enter the Password">
+    </testcase>
+    <testcase name="Test Cases for Login Page Click on Login Button" time="0.3140" classname="Click on Login Button">
+    </testcase>
+  </testsuite>
+  <testsuite name="Test Cases after the user is Logged-In" timestamp="2022-08-04T08:15:30" tests="5" time="4.2500" failures="0">
+    <testcase name="Test Cases after the user is Logged-In Check the Settings" time="1.5000" classname="Check the Settings">
+    </testcase>
+    <testcase name="Test Cases after the user is Logged-In Select value from School Drop Down" time="0.4590" classname="Select value from School Drop Down">
+    </testcase>
+    <testcase name="Test Cases after the user is Logged-In Check the Manual Intervention Checkbox" time="1.4710" classname="Check the Manual Intervention Checkbox">
+    </testcase>
+    <testcase name="Test Cases after the user is Logged-In Array Verification" time="0.1670" classname="Array Verification">
+    </testcase>
+    <testcase name="Test Cases after the user is Logged-In Uncheck the Manual Intervention Checkbox" time="0.4840" classname="Uncheck the Manual Intervention Checkbox">
+    </testcase>
+  </testsuite>
+  <testsuite name="Test Cases for Adding a Refund Request" timestamp="2022-08-04T08:15:35" tests="21" time="49.9580" failures="2">
+    <testcase name="Test Cases for Adding a Refund Request Click on Add Request button" time="0.8290" classname="Click on Add Request button">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Verify the URL of Refund Screen" time="0.2500" classname="Verify the URL of Refund Screen">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Select value from account drop down" time="0.4790" classname="Select value from account drop down">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Enter the Refund Amount" time="0.8330" classname="Enter the Refund Amount">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Get the amount" time="0.1360" classname="Get the amount">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Click on Submit Button" time="0.4970" classname="Click on Submit Button">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Verify the text of Toast Message" time="2.5010" classname="Verify the text of Toast Message">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Verify CSV" time="3.0270" classname="Verify CSV">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Click on Approve button" time="0.9950" classname="Click on Approve button">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Click on Settings button" time="0.0000" classname="Click on Settings button">
+      <failure message="Timed out retrying after 10050ms: `cy.click()` failed because the center of this element is hidden from view:
+
+`&lt;button _ngcontent-cqf-c253=&quot;&quot; mat-button=&quot;&quot; mat-flat-button=&quot;&quot; color=&quot;accent&quot; aria-label=&quot;Settings&quot; class=&quot;mat-focus-indicator refunds-list-page__settings ng-tns-c253-15 mat-button mat-flat-button mat-button-base mat-accent&quot; ng-reflect-color=&quot;accent&quot;&gt;...&lt;/button&gt;`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying after 10050ms: `cy.click()` failed because the center of this element is hidden from view:
+
+`<button _ngcontent-cqf-c253="" mat-button="" mat-flat-button="" color="accent" aria-label="Settings" class="mat-focus-indicator refunds-list-page__settings ng-tns-c253-15 mat-button mat-flat-button mat-button-base mat-accent" ng-reflect-color="accent">...</button>`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at $Cy.ensureDescendents (http://localhost:4005/__cypress/runner/cypress_runner.js:162016:76)
+    at ensureDescendents (http://localhost:4005/__cypress/runner/cypress_runner.js:147392:8)
+    at ensureDescendentsAndScroll (http://localhost:4005/__cypress/runner/cypress_runner.js:147399:14)
+    at ensureElIsNotCovered (http://localhost:4005/__cypress/runner/cypress_runner.js:147531:5)
+    at runAllChecks (http://localhost:4005/__cypress/runner/cypress_runner.js:147721:52)
+    at retryActionability (http://localhost:4005/__cypress/runner/cypress_runner.js:147745:16)
+    at tryCatcher (http://localhost:4005/__cypress/runner/cypress_runner.js:13012:23)
+    at Function.Promise.attempt.Promise.try (http://localhost:4005/__cypress/runner/cypress_runner.js:10286:29)
+    at whenStable (http://localhost:4005/__cypress/runner/cypress_runner.js:166930:65)
+    at http://localhost:4005/__cypress/runner/cypress_runner.js:166385:14
+    at tryCatcher (http://localhost:4005/__cypress/runner/cypress_runner.js:13012:23)
+    at Promise._settlePromiseFromHandler (http://localhost:4005/__cypress/runner/cypress_runner.js:10947:31)
+    at Promise._settlePromise (http://localhost:4005/__cypress/runner/cypress_runner.js:11004:18)
+    at Promise._settlePromise0 (http://localhost:4005/__cypress/runner/cypress_runner.js:11049:10)
+    at Promise._settlePromises (http://localhost:4005/__cypress/runner/cypress_runner.js:11129:18)
+    at Promise._fulfill (http://localhost:4005/__cypress/runner/cypress_runner.js:11073:18)
+    at http://localhost:4005/__cypress/runner/cypress_runner.js:12687:46
+From Your Spec Code:
+    at homePage.settingsButton (http://localhost:4005/__cypress/tests?p=cypress\integration\specs\allSpecs.js:6716:45)
+    at Context.eval (http://localhost:4005/__cypress/tests?p=cypress\integration\specs\allSpecs.js:6946:10)]]></failure>
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Click on Add Request button again to make another refund" time="0.9800" classname="Click on Add Request button again to make another refund">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Select value from account drop down for another refund" time="0.8260" classname="Select value from account drop down for another refund">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Enter the Refund Amount" time="0.9360" classname="Enter the Refund Amount">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Click on Submit Button" time="0.4320" classname="Click on Submit Button">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Click on Settings button" time="4.1070" classname="Click on Settings button">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Click on Add Request button again to make another refund" time="0.5430" classname="Click on Add Request button again to make another refund">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Select value from account drop down for another refund" time="0.6350" classname="Select value from account drop down for another refund">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Enter the Refund Amount" time="0.9000" classname="Enter the Refund Amount">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Click on Submit Button" time="0.6510" classname="Click on Submit Button">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Click on Decline button" time="5.7570" classname="Click on Decline button">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Enter Reason" time="0.0000" classname="Enter Reason">
+      <failure message="Timed out retrying after 10000ms: Expected to find element: `#mat-input-15`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: Expected to find element: `#mat-input-15`, but never found it.
+    at homePage.enterReason (http://localhost:4005/__cypress/tests?p=cypress\integration\specs\allSpecs.js:6731:8)
+    at Context.eval (http://localhost:4005/__cypress/tests?p=cypress\integration\specs\allSpecs.js:6992:10)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Verify DB Connection" timestamp="2022-08-04T08:16:25" tests="1" time="0.6040" failures="0">
+    <testcase name="Verify DB Connection Verify connection with database" time="0.5740" classname="Verify connection with database">
+    </testcase>
+  </testsuite>
+  <testsuite name="Api Automation test cases" timestamp="2022-08-04T08:16:25" tests="3" time="1.0070" failures="0">
+    <testcase name="Api Automation test cases Get Token Api" time="0.3300" classname="Get Token Api">
+    </testcase>
+    <testcase name="Api Automation test cases Login Api" time="0.2840" classname="Login Api">
+    </testcase>
+    <testcase name="Api Automation test cases Account balance Api" time="0.3280" classname="Account balance Api">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="43.8590" tests="36" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-08-04T08:18:34" tests="0" file="cypress\integration\specs\allSpecs.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Test Cases for Login Page" timestamp="2022-08-04T08:18:34" tests="6" time="8.4100" failures="0">
+    <testcase name="Test Cases for Login Page Vist the URL" time="3.6990" classname="Vist the URL">
+    </testcase>
+    <testcase name="Test Cases for Login Page Verify the Heading of Login Page" time="0.3890" classname="Verify the Heading of Login Page">
+    </testcase>
+    <testcase name="Test Cases for Login Page Verify the URL of Login Page" time="0.1490" classname="Verify the URL of Login Page">
+    </testcase>
+    <testcase name="Test Cases for Login Page Enter the email address" time="0.6740" classname="Enter the email address">
+    </testcase>
+    <testcase name="Test Cases for Login Page Enter the Password" time="0.5000" classname="Enter the Password">
+    </testcase>
+    <testcase name="Test Cases for Login Page Click on Login Button" time="0.2480" classname="Click on Login Button">
+    </testcase>
+  </testsuite>
+  <testsuite name="Test Cases after the user is Logged-In" timestamp="2022-08-04T08:18:43" tests="5" time="2.6830" failures="0">
+    <testcase name="Test Cases after the user is Logged-In Check the Settings" time="1.2280" classname="Check the Settings">
+    </testcase>
+    <testcase name="Test Cases after the user is Logged-In Select value from School Drop Down" time="0.3250" classname="Select value from School Drop Down">
+    </testcase>
+    <testcase name="Test Cases after the user is Logged-In Check the Manual Intervention Checkbox" time="0.6270" classname="Check the Manual Intervention Checkbox">
+    </testcase>
+    <testcase name="Test Cases after the user is Logged-In Array Verification" time="0.1320" classname="Array Verification">
+    </testcase>
+    <testcase name="Test Cases after the user is Logged-In Uncheck the Manual Intervention Checkbox" time="0.3060" classname="Uncheck the Manual Intervention Checkbox">
+    </testcase>
+  </testsuite>
+  <testsuite name="Test Cases for Adding a Refund Request" timestamp="2022-08-04T08:18:46" tests="21" time="31.6190" failures="0">
+    <testcase name="Test Cases for Adding a Refund Request Click on Add Request button" time="0.4960" classname="Click on Add Request button">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Verify the URL of Refund Screen" time="0.1010" classname="Verify the URL of Refund Screen">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Select value from account drop down" time="0.3370" classname="Select value from account drop down">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Enter the Refund Amount" time="0.4620" classname="Enter the Refund Amount">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Get the amount" time="0.0590" classname="Get the amount">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Click on Submit Button" time="0.2400" classname="Click on Submit Button">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Verify the text of Toast Message" time="2.0640" classname="Verify the text of Toast Message">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Verify CSV" time="2.1480" classname="Verify CSV">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Click on Approve button" time="0.6220" classname="Click on Approve button">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Click on Settings button" time="7.5620" classname="Click on Settings button">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Click on Add Request button again to make another refund" time="0.4820" classname="Click on Add Request button again to make another refund">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Select value from account drop down for another refund" time="0.3970" classname="Select value from account drop down for another refund">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Enter the Refund Amount" time="0.5550" classname="Enter the Refund Amount">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Click on Submit Button" time="0.2480" classname="Click on Submit Button">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Click on Settings button" time="6.3030" classname="Click on Settings button">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Click on Add Request button again to make another refund" time="0.3610" classname="Click on Add Request button again to make another refund">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Select value from account drop down for another refund" time="0.4300" classname="Select value from account drop down for another refund">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Enter the Refund Amount" time="0.8240" classname="Enter the Refund Amount">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Click on Submit Button" time="0.5700" classname="Click on Submit Button">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Click on Decline button" time="5.8420" classname="Click on Decline button">
+    </testcase>
+    <testcase name="Test Cases for Adding a Refund Request Enter Reason" time="0.9910" classname="Enter Reason">
+    </testcase>
+  </testsuite>
+  <testsuite name="Verify DB Connection" timestamp="2022-08-04T08:19:17" tests="1" time="0.3190" failures="0">
+    <testcase name="Verify DB Connection Verify connection with database" time="0.3450" classname="Verify connection with database">
+    </testcase>
+  </testsuite>
+  <testsuite name="Api Automation test cases" timestamp="2022-08-04T08:19:17" tests="3" time="0.7910" failures="0">
+    <testcase name="Api Automation test cases Get Token Api" time="0.1950" classname="Get Token Api">
+    </testcase>
+    <testcase name="Api Automation test cases Login Api" time="0.1910" classname="Login Api">
+    </testcase>
+    <testcase name="Api Automation test cases Account balance Api" time="0.2930" classname="Account balance Api">
+    </testcase>
+  </testsuite>
+</testsuites>

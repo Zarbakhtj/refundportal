@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="7.3880" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-07-21T13:51:54" tests="0" file="cypress\integration\examples\01-loginSpec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Test Cases for Login Page" timestamp="2022-07-21T13:51:54" tests="6" time="7.3380" failures="0">
+    <testcase name="Test Cases for Login Page Vist the URL" time="2.8050" classname="Vist the URL">
+    </testcase>
+    <testcase name="Test Cases for Login Page Verify the Heading of Login Page" time="0.3040" classname="Verify the Heading of Login Page">
+    </testcase>
+    <testcase name="Test Cases for Login Page Verify the URL of Login Page" time="0.1700" classname="Verify the URL of Login Page">
+    </testcase>
+    <testcase name="Test Cases for Login Page Enter the email address" time="0.5690" classname="Enter the email address">
+    </testcase>
+    <testcase name="Test Cases for Login Page Enter the Password" time="0.4910" classname="Enter the Password">
+    </testcase>
+    <testcase name="Test Cases for Login Page Click on Login Button" time="0.3050" classname="Click on Login Button">
+    </testcase>
+  </testsuite>
+</testsuites>

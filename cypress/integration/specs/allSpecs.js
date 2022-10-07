@@ -1,0 +1,5 @@
+import './01-loginSpec'
+import './02-homeSpec'
+import './03-addRequestspec'
+import './04-postgresDBspec'
+import './05-apiAutomationSpec'
